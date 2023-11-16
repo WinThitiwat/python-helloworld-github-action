@@ -21,7 +21,7 @@ spec:
         app: python-helloworld-github-action
     spec:
       containers:
-      - image: pixelpotato/python-helloworld-github-action:v1.0.0 
+      - image: WinThitiwat/python-helloworld-github-action:latest
         imagePullPolicy: IfNotPresent
         name: python-helloworld-github-action
         resources:
